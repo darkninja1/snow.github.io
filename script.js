@@ -1,6 +1,6 @@
 function fallingSnow() {
 
-    var $snowflakes = $(), qt = 50;
+    var $snowflakes = $(), qt = 100;
 
     for (var i = 0; i < qt; ++i) {
         var $snowflake = $('<div class="snowflakes"></div>');
